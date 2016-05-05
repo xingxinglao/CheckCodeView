@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5C8038C1CDB624600EEAB5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C8038B1CDB624600EEAB5A /* main.m */; };
+		A5C8038F1CDB624600EEAB5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C8038E1CDB624600EEAB5A /* AppDelegate.m */; };
+		A5C803921CDB624600EEAB5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C803911CDB624600EEAB5A /* ViewController.m */; };
+		A5C803951CDB624600EEAB5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C803931CDB624600EEAB5A /* Main.storyboard */; };
+		A5C803971CDB624600EEAB5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5C803961CDB624600EEAB5A /* Assets.xcassets */; };
+		A5C8039A1CDB624600EEAB5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C803981CDB624600EEAB5A /* LaunchScreen.storyboard */; };
+		A5C803A31CDB627100EEAB5A /* LJXCeckCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C803A21CDB627100EEAB5A /* LJXCeckCodeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A5C803871CDB624600EEAB5A /* CheckCodeText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckCodeText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5C8038B1CDB624600EEAB5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5C8038D1CDB624600EEAB5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5C8038E1CDB624600EEAB5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5C803901CDB624600EEAB5A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A5C803911CDB624600EEAB5A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A5C803941CDB624600EEAB5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5C803961CDB624600EEAB5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5C803991CDB624600EEAB5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5C8039B1CDB624600EEAB5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5C803A11CDB627100EEAB5A /* LJXCeckCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJXCeckCodeView.h; sourceTree = "<group>"; };
+		A5C803A21CDB627100EEAB5A /* LJXCeckCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJXCeckCodeView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5C803841CDB624600EEAB5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5C8037E1CDB624600EEAB5A = {
+			isa = PBXGroup;
+			children = (
+				A5C803891CDB624600EEAB5A /* CheckCodeText */,
+				A5C803881CDB624600EEAB5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5C803881CDB624600EEAB5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5C803871CDB624600EEAB5A /* CheckCodeText.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5C803891CDB624600EEAB5A /* CheckCodeText */ = {
+			isa = PBXGroup;
+			children = (
+				A5C8038D1CDB624600EEAB5A /* AppDelegate.h */,
+				A5C8038E1CDB624600EEAB5A /* AppDelegate.m */,
+				A5C803901CDB624600EEAB5A /* ViewController.h */,
+				A5C803911CDB624600EEAB5A /* ViewController.m */,
+				A5C803A11CDB627100EEAB5A /* LJXCeckCodeView.h */,
+				A5C803A21CDB627100EEAB5A /* LJXCeckCodeView.m */,
+				A5C803931CDB624600EEAB5A /* Main.storyboard */,
+				A5C803961CDB624600EEAB5A /* Assets.xcassets */,
+				A5C803981CDB624600EEAB5A /* LaunchScreen.storyboard */,
+				A5C8039B1CDB624600EEAB5A /* Info.plist */,
+				A5C8038A1CDB624600EEAB5A /* Supporting Files */,
+			);
+			path = CheckCodeText;
+			sourceTree = "<group>";
+		};
+		A5C8038A1CDB624600EEAB5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5C8038B1CDB624600EEAB5A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5C803861CDB624600EEAB5A /* CheckCodeText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5C8039E1CDB624600EEAB5A /* Build configuration list for PBXNativeTarget "CheckCodeText" */;
+			buildPhases = (
+				A5C803831CDB624600EEAB5A /* Sources */,
+				A5C803841CDB624600EEAB5A /* Frameworks */,
+				A5C803851CDB624600EEAB5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckCodeText;
+			productName = CheckCodeText;
+			productReference = A5C803871CDB624600EEAB5A /* CheckCodeText.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5C8037F1CDB624600EEAB5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = laojingxing;
+				TargetAttributes = {
+					A5C803861CDB624600EEAB5A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = A5C803821CDB624600EEAB5A /* Build configuration list for PBXProject "CheckCodeText" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5C8037E1CDB624600EEAB5A;
+			productRefGroup = A5C803881CDB624600EEAB5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5C803861CDB624600EEAB5A /* CheckCodeText */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5C803851CDB624600EEAB5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C8039A1CDB624600EEAB5A /* LaunchScreen.storyboard in Resources */,
+				A5C803971CDB624600EEAB5A /* Assets.xcassets in Resources */,
+				A5C803951CDB624600EEAB5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5C803831CDB624600EEAB5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C803A31CDB627100EEAB5A /* LJXCeckCodeView.m in Sources */,
+				A5C803921CDB624600EEAB5A /* ViewController.m in Sources */,
+				A5C8038F1CDB624600EEAB5A /* AppDelegate.m in Sources */,
+				A5C8038C1CDB624600EEAB5A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5C803931CDB624600EEAB5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5C803941CDB624600EEAB5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5C803981CDB624600EEAB5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5C803991CDB624600EEAB5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5C8039C1CDB624600EEAB5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5C8039D1CDB624600EEAB5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5C8039F1CDB624600EEAB5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CheckCodeText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingxinglao.CheckCodeText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A5C803A01CDB624600EEAB5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CheckCodeText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xingxinglao.CheckCodeText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5C803821CDB624600EEAB5A /* Build configuration list for PBXProject "CheckCodeText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C8039C1CDB624600EEAB5A /* Debug */,
+				A5C8039D1CDB624600EEAB5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5C8039E1CDB624600EEAB5A /* Build configuration list for PBXNativeTarget "CheckCodeText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C8039F1CDB624600EEAB5A /* Debug */,
+				A5C803A01CDB624600EEAB5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5C8037F1CDB624600EEAB5A /* Project object */;
+}
