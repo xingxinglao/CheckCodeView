@@ -36,6 +36,9 @@
     // 从网络获取字符串，然后把得到的字符串在本地绘制出来
     //  获取方法.........
         self.changeString = [NSMutableString stringWithString:@"L1J2X3"];
+    // 本地生成
+    NSString *string = [NSString stringWithFormat:@"%d%d%d%d", arc4random() % 2, arc4random() % 2, arc4random() % 10, arc4random() % 2];
+    self.changeString = [NSMutableString stringWithString:string];
 }
 
 #pragma mark - 点击view时调用，因为当前类自身就是UIView，点击更换验证码可以直接写到这个方法中，不用再额外添加手势
